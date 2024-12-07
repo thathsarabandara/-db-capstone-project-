@@ -39,6 +39,7 @@ CREATE TABLE `customer_details` (
 
 LOCK TABLES `customer_details` WRITE;
 /*!40000 ALTER TABLE `customer_details` DISABLE KEYS */;
+INSERT INTO `customer_details` VALUES (1,'John','Doe','john.doe@example.com','555-1234','123 Elm Street, Springfield'),(2,'Jane','Smith','jane.smith@example.com','555-5678','456 Oak Avenue, Springfield'),(3,'Alice','Johnson','alice.johnson@example.com','555-9101','789 Pine Road, Springfield');
 /*!40000 ALTER TABLE `customer_details` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -51,4 +52,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2024-12-07 13:35:16
+-- Dump completed on 2024-12-07 15:21:31

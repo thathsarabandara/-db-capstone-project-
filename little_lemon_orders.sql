@@ -27,7 +27,7 @@ CREATE TABLE `orders` (
   `OrderDate` date NOT NULL,
   `quantity` int NOT NULL,
   `TotalCost` int NOT NULL,
-  `CustomerID` int NOT NULL,
+  `CustomerID` int NOT NULL AUTO_INCREMENT,
   `MenuID` int NOT NULL,
   PRIMARY KEY (`OrderID`),
   KEY `customer id fk_idx` (`CustomerID`),
@@ -55,4 +55,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2024-12-07 13:35:15
+-- Dump completed on 2024-12-07 15:21:29
