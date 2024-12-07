@@ -3794,7 +3794,7 @@
     </dashboard>
   </dashboards>
   <windows source-height='30'>
-    <window class='worksheet' name='Customer Sales'>
+    <window class='worksheet' maximized='true' name='Customer Sales'>
       <cards>
         <edge name='left'>
           <strip size='160'>
@@ -3906,7 +3906,7 @@
       </cards>
       <simple-id uuid='{BC088C24-4A37-46B9-83D4-102781530210}' />
     </window>
-    <window class='dashboard' maximized='true' name='Dashboard 1'>
+    <window class='dashboard' name='Dashboard 1'>
       <viewpoints>
         <viewpoint name='Customer Sales'>
           <zoom type='entire-view' />
